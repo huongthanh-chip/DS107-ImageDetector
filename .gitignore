@@ -1,0 +1,12 @@
+# Chặn mọi thứ bên trong Data
+Data/cleaned
+Data/raw
+
+# NGOẠI LỆ: Không chặn thư mục pipeline
+!Data/pipeline/
+
+# Các folder khác bạn muốn bỏ qua
+.vscode/
+Train/
+venv/
+__pycache__/
