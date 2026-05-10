@@ -15,12 +15,14 @@ from multiprocessing import Pool, cpu_count
 import os
 
 # ============ CONFIG ============
-RAW_REAL_DIR = Path("Data/raw/Real Image")
-RAW_FAKE_DIR = Path("Data/raw/AI Image (SDXL)")
-CLEAN_REAL_DIR = Path("Data/cleaned/real")
-CLEAN_FAKE_DIR = Path("Data/cleaned/fake")
-REPORT_DIR = Path("Data/reports")
-SPLIT_DIR = Path("Data/splits")
+# Resolve all data paths from repository root so the script works from any CWD.
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+RAW_REAL_DIR = PROJECT_ROOT / "Data/raw/Real Image"
+RAW_FAKE_DIR = PROJECT_ROOT / "Data/raw/AI Image (SDXL)"
+CLEAN_REAL_DIR = PROJECT_ROOT / "Data/cleaned/real"
+CLEAN_FAKE_DIR = PROJECT_ROOT / "Data/cleaned/fake"
+REPORT_DIR = PROJECT_ROOT / "Data/reports"
+SPLIT_DIR = PROJECT_ROOT / "Data/splits"
 VALID_IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff", ".webp"}
 ImageFile.LOAD_TRUNCATED_IMAGES = False
 
@@ -201,7 +203,7 @@ def confirm_with_ssim(path1: str, path2: str, threshold: float = 0.95):
     score = ssim_global(a, b)
     return score >= threshold, float(score)
 
-def g3_deduplicate(cleaned_dir: Path = Path("Data/cleaned"), hamming_threshold: int = 10, ssim_threshold: float = 0.95):
+def g3_deduplicate(cleaned_dir: Path = PROJECT_ROOT / "Data/cleaned", hamming_threshold: int = 10, ssim_threshold: float = 0.95):
     print("\n╔" + "═"*68 + "╗")
     print("║" + "GIAI DOAN 3: DE-DUPLICATION".center(68) + "║")
     print("╚" + "═"*68 + "╝\n")
