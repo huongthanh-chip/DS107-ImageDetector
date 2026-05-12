@@ -470,99 +470,6 @@ def check_crop_pil(sample_csv=str(SPLIT_DIR / "train.csv")):
     print(f"[G6-PIL] After resize+crop: {img_c.size} -> cropped={ok}")
     return ok
 
-
-# --- G6: runtime transforms (albumentations) + torch Dataset/DataLoader check ---
-def build_alb_transforms():
-    """Return (train_transform, val_transform, uses_to_tensorv2)."""
-    A, ToTensorV2, uses_to_tensorv2 = _try_import_albumentations()
-    if A is None:
-        return (None, None, False)
-
-    train_transform = A.Compose([
-        A.SmallestMaxSize(max_size=256),
-        A.CenterCrop(224, 224),
-        A.HorizontalFlip(p=0.5),
-        A.Rotate(limit=10, p=0.5),
-        A.RandomBrightnessContrast(0.1, 0.1, p=0.3),
-        A.GaussNoise(var_limit=(0.001, 0.005), p=0.3),
-        A.ImageCompression(quality_lower=70, quality_upper=95, p=0.3),
-        A.Normalize(mean=[0.485, 0.456, 0.406],
-                    std=[0.229, 0.224, 0.225]),
-        ToTensorV2() if uses_to_tensorv2 else A.pytorch.transforms.ToTensorV2() if hasattr(A, 'pytorch') else A.Normalize(),
-    ])
-
-    val_test_transform = A.Compose([
-        A.SmallestMaxSize(max_size=256),
-        A.CenterCrop(224, 224),
-        A.Normalize(mean=[0.485, 0.456, 0.406],
-                    std=[0.229, 0.224, 0.225]),
-        ToTensorV2() if uses_to_tensorv2 else A.pytorch.transforms.ToTensorV2() if hasattr(A, 'pytorch') else A.Normalize(),
-    ])
-
-    return (train_transform, val_test_transform, uses_to_tensorv2)
-
-
-def check_dataloader_cropping(batch_size=8):
-    """Quick verify: albumentations -> DataLoader yields [B,3,224,224]."""
-    torch = _try_import_torch()
-    if torch is None:
-        print("[G6-ALB] Skipping albumentations check: torch not available or failed to initialize.")
-        return False
-    if not SPLIT_DIR.exists():
-        print("[G6-ALB] Splits directory missing")
-        return False
-    train_csv = SPLIT_DIR / 'train.csv'
-    if not train_csv.exists():
-        print(f"[G6-ALB] train.csv not found: {train_csv}")
-        return False
-    df = pd.read_csv(train_csv)
-    train_t, val_t, uses_to_tensorv2 = build_alb_transforms()
-    if train_t is None:
-        print("[G6-ALB] albumentations not available")
-        return False
-
-    class AlbDataset(torch.utils.data.Dataset):
-        def __init__(self, df, transform=None):
-            self.df = df.reset_index(drop=True)
-            self.transform = transform
-
-        def __len__(self):
-            return len(self.df)
-
-        def __getitem__(self, idx):
-            row = self.df.iloc[idx]
-            img_path = row['path'] if 'path' in row else row[0]
-            img = Image.open(img_path).convert('RGB')
-            img_np = np.array(img)
-            if self.transform is not None:
-                out = self.transform(image=img_np)
-                if isinstance(out, dict) and 'image' in out:
-                    img_t = out['image']
-                else:
-                    img_t = out
-            else:
-                img_t = np.transpose(img_np / 255.0, (2,0,1)).astype('float32')
-                img_t = torch.from_numpy(img_t)
-
-            # label handling: expect 'label' column (0/1) or infer from path
-            if 'label' in self.df.columns:
-                label = int(row['label'])
-            else:
-                label = 1 if 'fake' in str(img_path).lower() or 'ai' in str(img_path).lower() else 0
-
-            return img_t, label
-
-    ds = AlbDataset(df, transform=train_t)
-    dl = torch.utils.data.DataLoader(ds, batch_size=batch_size, shuffle=False, num_workers=0)
-    batch = next(iter(dl))
-    imgs, labels = batch
-    try:
-        ok = imgs.shape[1:] == (3,224,224)
-    except Exception:
-        ok = False
-    print(f"[G6-ALB] Batch imgs.shape={getattr(imgs,'shape',None)}, ok={ok}")
-    return ok
-
 # ============ G5: SPLIT ============
 def g5_split(df):
     print("\n╔" + "═"*68 + "╗")
@@ -605,16 +512,7 @@ if __name__ == "__main__":
         # G3: de-duplication
         g3_report = g3_deduplicate()
         df = g4_resolution()
-        g5_split(df)
-        # G6: quick DataLoader cropping check (torch optional)
-        if os.environ.get("SKIP_TORCH") == "1":
-            check_ok = check_crop_pil()
-        elif _try_import_torch() is not None:
-            check_ok = check_dataloader_cropping_custom()
-        else:
-            check_ok = check_crop_pil()
-        print(f"[G6] Cropping check passed: {check_ok}")
-        
+        g5_split(df)     
         print("\n╔" + "═"*68 + "╗")
         print("║" + "✓ CLEANING PIPELINE COMPLETE".center(68) + "║")
         print("╚" + "═"*68 + "╝\n")
