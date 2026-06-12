@@ -2,22 +2,124 @@
   "exact_real_count": 1,
   "exact_fake_count": 0,
   "cross_exact_count": 0,
-  "near_cross_candidates": 31652,
-  "near_cross_confirmed": 215,
-  "deleted_count": 214,
+  "near_cross_candidates": 49572,
+  "near_cross_confirmed": 428,
+  "deleted_count": 427,
   "deleted": [
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\-qTABa0H33c.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\-tYc6bODtxU.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003267.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003338.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003474.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003514.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003612.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003702.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003799.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003809.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003810.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003842.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003844.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003847.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003916.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003922.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003949.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004007.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004013.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004026.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004050.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004055.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004069.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004074.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004117.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004124.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004125.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004138.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004141.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004142.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004146.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004148.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004150.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004152.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004155.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004162.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004168.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004169.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004175.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004177.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004179.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004180.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004182.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004186.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004190.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004191.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004198.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004200.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004202.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004214.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004217.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004220.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004233.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004234.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004236.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004257.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004270.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004283.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004287.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004324.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004326.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004349.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004391.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004393.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004408.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004479.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004535.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004545.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004597.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004620.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004626.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004640.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004657.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004665.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004676.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004681.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004697.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004743.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004748.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004777.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004831.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004863.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\0yKEFhlU7AE.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\10y2kh3TPzc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\183C-FYu-4M.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\1awelB371lw.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\1dou_Xnm400.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\1iLZcIYJtHE.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\2M2yIQYpGvc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\2qTTyhYCQac.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\2sCJgkinvyU.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\2tH8A0LcsXU.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3HURcc6E5Fs.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3VK6Urf2vE8.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3jESu30cJVE.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3lyPCjrnP00.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3o4gCLP68H0.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3vTXTOFwfx0.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\43KhM2J9coY.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\4EU6W00QFPI.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\4qeKh2RhVNQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\51lPn0Z7U8Y.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\5KxI2qNfp4U.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\5oEWuR4fV4s.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\5u088Cqep6o.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6-o09lWkL5o.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6N8GYg1SiVM.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6YKwuJx391s.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6la9hW-gL9s.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6vX2E06jKmc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\7Fhy9i_FdGg.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\7JBdrcomnms.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\7blrlwsEnQQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\8PTAAGwsGnU.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\9kOwrkXFN0w.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\AQv8D0MOVHg.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\BJ0oxqJTETE.png",
@@ -64,74 +166,171 @@
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\cdeeKOS7R1A.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\fewUBiS8Qrk.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\iT81im3RDuk.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00000_s9NxM5gZpEk.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00002_DTzH6YUJV7M.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00002_wHLXMiRgEWk.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00003_71iAV9bsxb0.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00003_Up-qt2qSwtU.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00003_jU-LJ88g0AQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00005_ZtklzeZeT8Q.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00006_FInA4W53WE8.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00007_TpykrFv9X6w.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00008_tTCrn5tTCRY.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00009_0Ao9yqFSRTc.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00009_5uxmeWWiI2w.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00010_2eBHrtblYUM.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00012_j9Bz7yagbt0.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00013_BWLaidtusF0.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00013_VrzcF3_2bEc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00015_1CFj9wggwj4.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00015_VkZWfYfPjbs.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00016_OkMei9JpZ6E.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00017_GSNGJktvOQs.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00018_NfYMs_pqQ2M.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00020_KrDlK6xSjBo.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00020_pyNsYbjASeU.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00021_CIgjxS6nSy4.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00025_StVghjnL1ks.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00026_kEhPUl55PaY.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00027_PG_02GMoim0.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00028_jHedys2TPks.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00030_CDRh_9kWvfY.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00031_wM-jkWuOVXI.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00032_l10_gDeaazE.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00034_xSn0WW7PsF4.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00035_mSbwbTbcjSQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00037_VUP6EQQu2Tw.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00039_0N1Q4KIh3QU.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00040__3wMbt8BwCI.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00040_k6ip4RGjUY0.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00041_czl6hDzNBXs.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00042_nhUUZxkbMB4.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00043_wpPVXCs0xvs.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00044_tjYCgcSQThA.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00045_vOciiTb-5OA.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00050_I3M7MF725Tw.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00053_ACeleLk0gJU.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00054_59R0No3_HVc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00057_ybZLzxHPzHI.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00060_ola14KvSDyA.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00062_dgzHJOkq-hE.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00063_W-ufgOm7CpY.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00067_oDE9F0hJ8FA.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00068_WdE_SOeBz5w.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00069_1e0nsrYCGZY.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00071_ibL0tKbHtn4.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00073_xeRBBYGenok.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00074_R1B3C08aVn8.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00074_XlQ9um1HhbQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00075_eacf6fthwTo.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00077_ucHSI37FnUg.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00078_pWPOTnb4jl4.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00079_qGhLyJrBXFI.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00080_BUYLqL-xSzI.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00084_u_QsGqPmbd0.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00087_Y64C9CAvpYI.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00088_biY6jzwnY2g.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00091_4Y0Nzcb6KMw.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00092_2QNLCuTnakc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00093_S0WqZbUyTfo.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00096_BohweEEWqI4.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00098_5GH-FUJIzmQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00099_-R8Q7jxVbJs.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00099_oaHy8vr0L0o.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00100_1_H10x3kZNw.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00100_OnjbfggJYjQ.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00101_1Tb3Vs_JjKE.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00102_4Wd3X3O-1c4.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00104_dvYoQHhRlzQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00105_tsiRqVN3Olo.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00107_pc8OElJ4Al8.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00111_j_8Ij0KWlBc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00112_mRlCDc1ITgM.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00113__ycmlE-sSY0.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00116_RaNxrn_5SIc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00120_LUp72sMNBE8.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00120_yA_4ACYM2Tg.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00121_Dhf2a6Nehlo.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00121_sLabTVsDq4Q.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00123_uKSHyJDntOw.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00124_ZWcgaroM950.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00126_nMhNEtILpTk.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00129_SODG1TXDKzQ.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00129_yLqdokSNhoo.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00131_7w9VP96EhmM.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00132_L-abseEoHUg.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00134_6TVe13r9bbc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00136_xFMPE9PvsTM.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00141_sI3e7Mwlhyg.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00143_NbtKpsPPL80.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00148_0D27PTQb8Ts.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00150_s7PkS9ngka8.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00153_8YQxeevTnC4.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00153_Iec7b4zNPR8.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00153_m9M0ieiYD6U.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00158_ueaYkyUsdIE.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00161_IAi1kRqBZSM.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00164_Wxfxd_1gc-c.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00166_BGIs_x_9mTY.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00171_Wo1pDN8qo2Q.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00176_dmtrtWgZwJY.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00181_2cm5Faf6VK0.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00182_COIUlTmAs5E.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00182_bcA_KJ14kZs.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00184_IvnSPK5Q-eQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00188_Ujcwgj1xdbA.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00189_lqI-UwkwQVc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00190_McGbstsrHs4.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00195_KiFhdqLD_p4.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00196_l10LY-So4Fg.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00201_CQpENcZXVww.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00203_DF1_kMR4qxY.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00205_jr55FBaQlqQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00208_a75v8dytlpE.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00214_1N5n-n70wO8.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00215_j7Bz085EFWw.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00217_Ka1pxwL7umU.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00221_UB0QiVPsXgc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00222_c45X2DkoxRc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00225_CF8Uk1CNWXg.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00225_Crblcii1ylA.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00231_Mijo12FlioE.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00231_jPSNYgjsKkg.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00233_lK9Iblr1L4U.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00237_p5olldOt5dw.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00238_Wut1lHNKZ5M.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00240_MIgCWUG96Ts.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00241_vjlyUQvgjfA.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00243_A9Gjtdt6MGI.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00244_wRcXTVzYt7I.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00245_UnUiZS5wyFQ.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00246_gHt7oCfPDfc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00247_lzAeyyeTdIk.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00249_5lbRMUUCJME.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00251_e8mxfGwDuHg.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00252_77WwzuYQUnM.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00255_sjM2VQQo5Zo.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00264_so16OhxXywk.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00265_cE-RkQZfJ1g.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00266_X-YLxYDrbiI.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00267_eA0m0VO0hj8.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00268_KZGxDSLSNbU.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00274_GDp6L255rXY.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00275_W6RGULLMoNU.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00282_MT2NeWpewZk.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00288_VQjzH0t8r0o.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00289_vGZTmYeMDXU.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00291_tDIhKbcQbks.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00295__dd65uMvT30.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00296_TJmAWhHsQlE.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00298_Xwasijgdm5Q.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00299_xhPp1bjzjBQ.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00315_o-8NJZsUb8w.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00317_z7b7MI0TzW4.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00318_PaCwY0TXItA.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00322_ZN6W8BixVhI.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00323_9_bhC6UhUxc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00324_7nLm3yghi8c.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00327_NMlBKWg5zco.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00328_o1X9Otw3XjA.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00328_r3fqLxYG2xU.png",
@@ -139,9 +338,19 @@
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00333_PeRt3uMmjYM.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00336_Wgugi-gU5jc.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00337_3aC2PCk8d0Y.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00338_92JRuvQZfKs.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00338_vkJyIXLHvIE.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00342_ixAcNevU_Lw.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00345_nXgqAyYXaTM.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00346_bPG-CFVIJ8I.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00347_D7-jWi6QMRw.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00350_Tt4P7v7z_qo.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00357_JpQGEArmG0I.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00360_N18PrG7k35o.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00363_OLMwSZz6Du4.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00369_ZRttpm-LNpc.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00374_MkEJWRPY6gc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00375_NlTK_D_j7xM.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00382_wErf0Tl7sbM.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00385_7f0u-yaOra4.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00386_k_YhLwRYei4.png",
@@ -152,6 +361,7 @@
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00401_KFpId47qaH4.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00402_LK2T_sM0PFs.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00405_PmyWWbPjkwQ.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00409_G9NU1EAn5Ko.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00440_iOa9J-6UOzQ.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00447_3QCotxLXl7M.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00453_4AAnWBY3i0c.png",
@@ -185,12 +395,15 @@
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00625_M9RzlhjiUzc.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00628_50q3yagzHQw.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00629_vXdQ_p8K0kA.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00641_JsbAZC_ExZQ.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00682_8JSHNIjrB5E.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00692_9yB6gLmT_v0.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00696_p6-R4VgCLpo.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00739_pvdTyrABGgw.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00756_BKs-Hqqc1tc.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00758_OGJ115s9xJs.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00768_JfArC0hvlcc.png",
+    "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00780_rKKCccIPNaQ.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00782_ALgTcVM8Lio.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00791_o7YAmt6QujI.png",
     "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00812_nr5aqLWu2WA.png",
@@ -235,70 +448,682 @@
       "ssim": 0.9527230661905949
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003267.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003267.png",
+      "hamming": 3,
+      "ssim": 0.9642455334050888
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003338.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003338.png",
+      "hamming": 8,
+      "ssim": 0.9567547055657184
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003474.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003474.png",
+      "hamming": 3,
+      "ssim": 0.9694436847300334
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003514.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003514.png",
+      "hamming": 5,
+      "ssim": 0.9742161560204253
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003612.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003612.png",
+      "hamming": 2,
+      "ssim": 0.969663612592032
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003702.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003702.png",
+      "hamming": 3,
+      "ssim": 0.9595490587507649
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003799.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003799.png",
+      "hamming": 6,
+      "ssim": 0.9582384933054864
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003809.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003809.png",
+      "hamming": 3,
+      "ssim": 0.9529974784593759
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003810.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003810.png",
+      "hamming": 5,
+      "ssim": 0.983815035510213
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003842.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003842.png",
+      "hamming": 6,
+      "ssim": 0.9510182821574141
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003844.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003844.png",
+      "hamming": 4,
+      "ssim": 0.9641517972552092
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003847.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003847.png",
+      "hamming": 6,
+      "ssim": 0.9576718563761834
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003916.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003916.png",
+      "hamming": 6,
+      "ssim": 0.9564220422797433
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003922.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003922.png",
+      "hamming": 2,
+      "ssim": 0.9663218657167344
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000003949.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000003949.png",
+      "hamming": 4,
+      "ssim": 0.9502467071234646
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004007.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004007.png",
+      "hamming": 3,
+      "ssim": 0.9661390226067614
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004013.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004013.png",
+      "hamming": 2,
+      "ssim": 0.9660754997132859
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004026.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004026.png",
+      "hamming": 6,
+      "ssim": 0.9656914022984858
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004050.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004050.png",
+      "hamming": 8,
+      "ssim": 0.962264043084383
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004055.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004055.png",
+      "hamming": 8,
+      "ssim": 0.9696239650906894
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004069.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004069.png",
+      "hamming": 2,
+      "ssim": 0.9506573032692508
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004074.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004074.png",
+      "hamming": 2,
+      "ssim": 0.9590887722573098
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004117.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004117.png",
+      "hamming": 4,
+      "ssim": 0.967120590413278
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004124.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004124.png",
+      "hamming": 3,
+      "ssim": 0.9571927509133922
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004125.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004125.png",
+      "hamming": 3,
+      "ssim": 0.9549990349450057
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004138.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004138.png",
+      "hamming": 4,
+      "ssim": 0.9607916775389013
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004141.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004141.png",
+      "hamming": 7,
+      "ssim": 0.9518074659591597
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004142.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004142.png",
+      "hamming": 6,
+      "ssim": 0.9549042876151772
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004146.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004146.png",
+      "hamming": 2,
+      "ssim": 0.9619697898571745
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004148.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004148.png",
+      "hamming": 4,
+      "ssim": 0.9500159708131544
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004150.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004150.png",
+      "hamming": 2,
+      "ssim": 0.9500330592452126
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004152.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004152.png",
+      "hamming": 4,
+      "ssim": 0.9807801001158705
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004155.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004155.png",
+      "hamming": 5,
+      "ssim": 0.9577011667870498
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004162.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004162.png",
+      "hamming": 4,
+      "ssim": 0.9600099604231533
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004168.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004168.png",
+      "hamming": 4,
+      "ssim": 0.9539685113044617
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004169.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004169.png",
+      "hamming": 4,
+      "ssim": 0.9556869309808567
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004175.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004175.png",
+      "hamming": 2,
+      "ssim": 0.9583491327428276
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004177.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004177.png",
+      "hamming": 4,
+      "ssim": 0.9573157689396943
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004179.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004179.png",
+      "hamming": 6,
+      "ssim": 0.9601197858709152
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004180.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004180.png",
+      "hamming": 2,
+      "ssim": 0.9508788195726118
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004182.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004182.png",
+      "hamming": 4,
+      "ssim": 0.9600260996394008
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004186.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004186.png",
+      "hamming": 4,
+      "ssim": 0.9714310746270385
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004190.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004190.png",
+      "hamming": 6,
+      "ssim": 0.9522856511391102
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004191.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004191.png",
+      "hamming": 6,
+      "ssim": 0.9743485104028162
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004198.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004198.png",
+      "hamming": 5,
+      "ssim": 0.9501256807104166
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004200.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004200.png",
+      "hamming": 7,
+      "ssim": 0.9651425151983486
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004202.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004202.png",
+      "hamming": 2,
+      "ssim": 0.96564137341586
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004214.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004214.png",
+      "hamming": 4,
+      "ssim": 0.9565109975935089
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004217.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004217.png",
+      "hamming": 6,
+      "ssim": 0.9711930697500967
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004220.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004220.png",
+      "hamming": 0,
+      "ssim": 0.9540807603585322
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004233.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004233.png",
+      "hamming": 3,
+      "ssim": 0.9744300145488118
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004234.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004234.png",
+      "hamming": 4,
+      "ssim": 0.9731265995334589
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004236.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004236.png",
+      "hamming": 2,
+      "ssim": 0.9523952800462291
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004257.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004257.png",
+      "hamming": 5,
+      "ssim": 0.9599728304230148
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004270.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004270.png",
+      "hamming": 3,
+      "ssim": 0.9625399969658334
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004283.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004283.png",
+      "hamming": 4,
+      "ssim": 0.9577708911314009
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004287.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004287.png",
+      "hamming": 9,
+      "ssim": 0.9682974555216644
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004324.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004324.png",
+      "hamming": 4,
+      "ssim": 0.9656460665400076
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004326.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004326.png",
+      "hamming": 8,
+      "ssim": 0.967789260165915
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004349.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004349.png",
+      "hamming": 7,
+      "ssim": 0.979707369179485
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004391.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004391.png",
+      "hamming": 9,
+      "ssim": 0.9759504767572968
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004393.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004393.png",
+      "hamming": 2,
+      "ssim": 0.9756049417168816
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004408.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004408.png",
+      "hamming": 6,
+      "ssim": 0.971493291211948
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004479.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004479.png",
+      "hamming": 4,
+      "ssim": 0.9777286154051573
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004535.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004535.png",
+      "hamming": 7,
+      "ssim": 0.9530273359906719
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004545.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004545.png",
+      "hamming": 2,
+      "ssim": 0.96182830018191
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004597.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004597.png",
+      "hamming": 2,
+      "ssim": 0.9529016532527529
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004620.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004620.png",
+      "hamming": 2,
+      "ssim": 0.9840307781678496
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004626.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004626.png",
+      "hamming": 2,
+      "ssim": 0.96090045572962
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004640.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004640.png",
+      "hamming": 6,
+      "ssim": 0.9839539586970194
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004657.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004657.png",
+      "hamming": 4,
+      "ssim": 0.9610343360693473
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004665.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004665.png",
+      "hamming": 7,
+      "ssim": 0.9733615932335687
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004676.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004676.png",
+      "hamming": 7,
+      "ssim": 0.9600787075179119
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004681.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004681.png",
+      "hamming": 5,
+      "ssim": 0.9764725708143613
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004697.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004697.png",
+      "hamming": 5,
+      "ssim": 0.9602672304180638
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004743.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004743.png",
+      "hamming": 2,
+      "ssim": 0.9662859628658659
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004748.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004748.png",
+      "hamming": 4,
+      "ssim": 0.9843415208745805
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004777.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004777.png",
+      "hamming": 4,
+      "ssim": 0.952453519800875
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004831.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004831.png",
+      "hamming": 0,
+      "ssim": 0.9587997075033585
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\00000004863.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\00000004863.png",
+      "hamming": 2,
+      "ssim": 0.9831743646718224
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\0yKEFhlU7AE.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\0yKEFhlU7AE.png",
       "hamming": 9,
-      "ssim": 0.9851686250409145
+      "ssim": 0.9911417829247775
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\10y2kh3TPzc.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\10y2kh3TPzc.png",
-      "hamming": 6,
-      "ssim": 0.9818676073483071
+      "hamming": 4,
+      "ssim": 0.9860871858797756
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\183C-FYu-4M.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\183C-FYu-4M.png",
+      "hamming": 4,
+      "ssim": 0.9810418781172575
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\1awelB371lw.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\1awelB371lw.png",
+      "hamming": 2,
+      "ssim": 0.9513951522068733
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\1dou_Xnm400.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\1dou_Xnm400.png",
-      "hamming": 6,
-      "ssim": 0.982675014916785
+      "hamming": 7,
+      "ssim": 0.987066766441205
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\1iLZcIYJtHE.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\1iLZcIYJtHE.png",
+      "hamming": 2,
+      "ssim": 0.965700709708371
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\2M2yIQYpGvc.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\2M2yIQYpGvc.png",
-      "hamming": 5,
-      "ssim": 0.967436948973569
+      "hamming": 2,
+      "ssim": 0.9814820051484674
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\2qTTyhYCQac.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\2qTTyhYCQac.png",
+      "hamming": 9,
+      "ssim": 0.9608511867253955
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\2sCJgkinvyU.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\2sCJgkinvyU.png",
+      "hamming": 4,
+      "ssim": 0.9536062324983712
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\2tH8A0LcsXU.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\2tH8A0LcsXU.png",
+      "hamming": 2,
+      "ssim": 0.9679427866088556
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\3HURcc6E5Fs.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3HURcc6E5Fs.png",
+      "hamming": 0,
+      "ssim": 0.9823770540411563
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\3jESu30cJVE.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3jESu30cJVE.png",
+      "hamming": 7,
+      "ssim": 0.9569682572175616
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\3lyPCjrnP00.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3lyPCjrnP00.png",
       "hamming": 5,
-      "ssim": 0.9548163488925886
+      "ssim": 0.9719222398832258
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\3o4gCLP68H0.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3o4gCLP68H0.png",
+      "hamming": 7,
+      "ssim": 0.9597755539986891
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\3VK6Urf2vE8.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3VK6Urf2vE8.png",
+      "hamming": 4,
+      "ssim": 0.9861484491610066
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\3vTXTOFwfx0.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\3vTXTOFwfx0.png",
       "hamming": 8,
-      "ssim": 0.9731479500197222
+      "ssim": 0.981076172282046
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\43KhM2J9coY.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\43KhM2J9coY.png",
+      "hamming": 7,
+      "ssim": 0.9701384647997912
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\4EU6W00QFPI.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\4EU6W00QFPI.png",
+      "hamming": 10,
+      "ssim": 0.9600997655591684
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\4qeKh2RhVNQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\4qeKh2RhVNQ.png",
+      "hamming": 6,
+      "ssim": 0.977793154590092
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\51lPn0Z7U8Y.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\51lPn0Z7U8Y.png",
+      "hamming": 6,
+      "ssim": 0.9686482033547618
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\5KxI2qNfp4U.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\5KxI2qNfp4U.png",
+      "hamming": 3,
+      "ssim": 0.9668847473923307
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\5oEWuR4fV4s.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\5oEWuR4fV4s.png",
-      "hamming": 8,
-      "ssim": 0.9676608052637024
+      "hamming": 10,
+      "ssim": 0.976526686724043
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\5u088Cqep6o.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\5u088Cqep6o.png",
+      "hamming": 10,
+      "ssim": 0.9589996213624126
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\6-o09lWkL5o.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6-o09lWkL5o.png",
-      "hamming": 6,
-      "ssim": 0.9737002396285581
+      "hamming": 2,
+      "ssim": 0.9871058150202106
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\6la9hW-gL9s.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6la9hW-gL9s.png",
+      "hamming": 4,
+      "ssim": 0.9767903148158686
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\6N8GYg1SiVM.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6N8GYg1SiVM.png",
+      "hamming": 4,
+      "ssim": 0.9667842499085862
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\6vX2E06jKmc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6vX2E06jKmc.png",
+      "hamming": 8,
+      "ssim": 0.9540674490671266
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\6YKwuJx391s.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\6YKwuJx391s.png",
       "hamming": 6,
-      "ssim": 0.9561888807827282
+      "ssim": 0.9742981360942711
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\7blrlwsEnQQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\7blrlwsEnQQ.png",
+      "hamming": 5,
+      "ssim": 0.9695265370419891
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\7Fhy9i_FdGg.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\7Fhy9i_FdGg.png",
+      "hamming": 5,
+      "ssim": 0.9620143063884371
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\7JBdrcomnms.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\7JBdrcomnms.png",
-      "hamming": 8,
-      "ssim": 0.9752379638876247
+      "hamming": 6,
+      "ssim": 0.9891556124429105
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\8PTAAGwsGnU.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\8PTAAGwsGnU.png",
+      "hamming": 10,
+      "ssim": 0.9728415025448085
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\9kOwrkXFN0w.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\9kOwrkXFN0w.png",
-      "hamming": 10,
-      "ssim": 0.9510176348619618
+      "hamming": 9,
+      "ssim": 0.9798229863282377
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\_9hIu3GdUWY.png",
@@ -385,6 +1210,12 @@
       "ssim": 0.9776519388489004
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00000_s9NxM5gZpEk.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00000_s9NxM5gZpEk.png",
+      "hamming": 2,
+      "ssim": 0.9666162817576952
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00002_DTzH6YUJV7M.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00002_DTzH6YUJV7M.png",
       "hamming": 7,
@@ -413,6 +1244,30 @@
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00003_Up-qt2qSwtU.png",
       "hamming": 8,
       "ssim": 0.9557617992953774
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00005_ZtklzeZeT8Q.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00005_ZtklzeZeT8Q.png",
+      "hamming": 2,
+      "ssim": 0.975239246028347
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00006_FInA4W53WE8.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00006_FInA4W53WE8.png",
+      "hamming": 6,
+      "ssim": 0.9681245257845792
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00007_TpykrFv9X6w.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00007_TpykrFv9X6w.png",
+      "hamming": 6,
+      "ssim": 0.9709075562643771
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00008_tTCrn5tTCRY.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00008_tTCrn5tTCRY.png",
+      "hamming": 2,
+      "ssim": 0.9841619579752843
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00009_0Ao9yqFSRTc.png",
@@ -451,6 +1306,18 @@
       "ssim": 0.9687507888363046
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00013_VrzcF3_2bEc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00013_VrzcF3_2bEc.png",
+      "hamming": 5,
+      "ssim": 0.9876871219243402
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00015_1CFj9wggwj4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00015_1CFj9wggwj4.png",
+      "hamming": 2,
+      "ssim": 0.9906950580582201
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00015_VkZWfYfPjbs.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00015_VkZWfYfPjbs.png",
       "hamming": 4,
@@ -461,6 +1328,18 @@
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00016_OkMei9JpZ6E.png",
       "hamming": 8,
       "ssim": 0.9673025271279354
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00017_GSNGJktvOQs.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00017_GSNGJktvOQs.png",
+      "hamming": 0,
+      "ssim": 0.9743285017269147
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00018_NfYMs_pqQ2M.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00018_NfYMs_pqQ2M.png",
+      "hamming": 2,
+      "ssim": 0.9717455564641545
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00020_KrDlK6xSjBo.png",
@@ -499,6 +1378,12 @@
       "ssim": 0.9509266896340309
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00028_jHedys2TPks.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00028_jHedys2TPks.png",
+      "hamming": 4,
+      "ssim": 0.9615923248780003
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00030_CDRh_9kWvfY.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00030_CDRh_9kWvfY.png",
       "hamming": 7,
@@ -517,6 +1402,24 @@
       "ssim": 0.9522481250113194
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00034_xSn0WW7PsF4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00034_xSn0WW7PsF4.png",
+      "hamming": 3,
+      "ssim": 0.9628829360737088
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00035_mSbwbTbcjSQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00035_mSbwbTbcjSQ.png",
+      "hamming": 0,
+      "ssim": 0.9731485520899517
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00037_VUP6EQQu2Tw.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00037_VUP6EQQu2Tw.png",
+      "hamming": 6,
+      "ssim": 0.966303899521363
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00039_0N1Q4KIh3QU.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00039_0N1Q4KIh3QU.png",
       "hamming": 8,
@@ -529,10 +1432,70 @@
       "ssim": 0.9694019218794354
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00040_k6ip4RGjUY0.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00040_k6ip4RGjUY0.png",
+      "hamming": 0,
+      "ssim": 0.9787923742815064
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00041_czl6hDzNBXs.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00041_czl6hDzNBXs.png",
+      "hamming": 2,
+      "ssim": 0.9877822235688513
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00042_nhUUZxkbMB4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00042_nhUUZxkbMB4.png",
+      "hamming": 2,
+      "ssim": 0.9852707767234862
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00043_wpPVXCs0xvs.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00043_wpPVXCs0xvs.png",
+      "hamming": 2,
+      "ssim": 0.9545910634519231
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00044_tjYCgcSQThA.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00044_tjYCgcSQThA.png",
+      "hamming": 3,
+      "ssim": 0.9893246249490677
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00045_vOciiTb-5OA.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00045_vOciiTb-5OA.png",
       "hamming": 10,
       "ssim": 0.9663788472475048
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00050_I3M7MF725Tw.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00050_I3M7MF725Tw.png",
+      "hamming": 4,
+      "ssim": 0.9646409918601472
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00053_ACeleLk0gJU.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00053_ACeleLk0gJU.png",
+      "hamming": 2,
+      "ssim": 0.9649498158959052
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00054_59R0No3_HVc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00054_59R0No3_HVc.png",
+      "hamming": 5,
+      "ssim": 0.9752309485164218
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00057_ybZLzxHPzHI.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00057_ybZLzxHPzHI.png",
+      "hamming": 4,
+      "ssim": 0.9783225369515677
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00060_ola14KvSDyA.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00060_ola14KvSDyA.png",
+      "hamming": 2,
+      "ssim": 0.9826503976810896
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00062_dgzHJOkq-hE.png",
@@ -547,10 +1510,34 @@
       "ssim": 0.9664402062414831
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00067_oDE9F0hJ8FA.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00067_oDE9F0hJ8FA.png",
+      "hamming": 4,
+      "ssim": 0.9777773950720043
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00068_WdE_SOeBz5w.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00068_WdE_SOeBz5w.png",
       "hamming": 10,
       "ssim": 0.9846771000271023
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00069_1e0nsrYCGZY.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00069_1e0nsrYCGZY.png",
+      "hamming": 2,
+      "ssim": 0.9585264592410622
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00071_ibL0tKbHtn4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00071_ibL0tKbHtn4.png",
+      "hamming": 4,
+      "ssim": 0.9729491042208344
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00073_xeRBBYGenok.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00073_xeRBBYGenok.png",
+      "hamming": 2,
+      "ssim": 0.9643963898604317
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00074_R1B3C08aVn8.png",
@@ -559,10 +1546,46 @@
       "ssim": 0.9513339568877309
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00074_XlQ9um1HhbQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00074_XlQ9um1HhbQ.png",
+      "hamming": 2,
+      "ssim": 0.9930775717595308
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00075_eacf6fthwTo.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00075_eacf6fthwTo.png",
+      "hamming": 0,
+      "ssim": 0.9877553398830577
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00077_ucHSI37FnUg.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00077_ucHSI37FnUg.png",
+      "hamming": 0,
+      "ssim": 0.9827647204795799
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00078_pWPOTnb4jl4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00078_pWPOTnb4jl4.png",
+      "hamming": 5,
+      "ssim": 0.9790948946127818
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00079_qGhLyJrBXFI.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00079_qGhLyJrBXFI.png",
+      "hamming": 4,
+      "ssim": 0.9777801971611125
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00080_BUYLqL-xSzI.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00080_BUYLqL-xSzI.png",
       "hamming": 7,
       "ssim": 0.955665334429723
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00084_u_QsGqPmbd0.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00084_u_QsGqPmbd0.png",
+      "hamming": 0,
+      "ssim": 0.9541053186317706
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00087_Y64C9CAvpYI.png",
@@ -571,10 +1594,58 @@
       "ssim": 0.9568493271381744
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00088_biY6jzwnY2g.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00088_biY6jzwnY2g.png",
+      "hamming": 0,
+      "ssim": 0.985071904048382
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00091_4Y0Nzcb6KMw.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00091_4Y0Nzcb6KMw.png",
+      "hamming": 2,
+      "ssim": 0.9505395895457421
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00092_2QNLCuTnakc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00092_2QNLCuTnakc.png",
+      "hamming": 1,
+      "ssim": 0.95222547290739
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00093_S0WqZbUyTfo.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00093_S0WqZbUyTfo.png",
+      "hamming": 2,
+      "ssim": 0.9944522405941101
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00096_BohweEEWqI4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00096_BohweEEWqI4.png",
+      "hamming": 5,
+      "ssim": 0.9512232693004934
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00098_5GH-FUJIzmQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00098_5GH-FUJIzmQ.png",
+      "hamming": 2,
+      "ssim": 0.9839480978512593
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00099_-R8Q7jxVbJs.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00099_-R8Q7jxVbJs.png",
+      "hamming": 3,
+      "ssim": 0.9882544208675124
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00099_oaHy8vr0L0o.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00099_oaHy8vr0L0o.png",
       "hamming": 6,
       "ssim": 0.9878922807713606
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00100_1_H10x3kZNw.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00100_1_H10x3kZNw.png",
+      "hamming": 6,
+      "ssim": 0.9520013779052631
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00100_OnjbfggJYjQ.png",
@@ -589,6 +1660,60 @@
       "ssim": 0.9705651296565735
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00102_4Wd3X3O-1c4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00102_4Wd3X3O-1c4.png",
+      "hamming": 2,
+      "ssim": 0.9685221475529499
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00104_dvYoQHhRlzQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00104_dvYoQHhRlzQ.png",
+      "hamming": 2,
+      "ssim": 0.9581328862999897
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00105_tsiRqVN3Olo.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00105_tsiRqVN3Olo.png",
+      "hamming": 6,
+      "ssim": 0.9615171937921062
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00107_pc8OElJ4Al8.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00107_pc8OElJ4Al8.png",
+      "hamming": 9,
+      "ssim": 0.9604001073495088
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00111_j_8Ij0KWlBc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00111_j_8Ij0KWlBc.png",
+      "hamming": 4,
+      "ssim": 0.9563163244893993
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00112_mRlCDc1ITgM.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00112_mRlCDc1ITgM.png",
+      "hamming": 4,
+      "ssim": 0.9735054459927238
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00113__ycmlE-sSY0.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00113__ycmlE-sSY0.png",
+      "hamming": 2,
+      "ssim": 0.9778193670815235
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00116_RaNxrn_5SIc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00116_RaNxrn_5SIc.png",
+      "hamming": 2,
+      "ssim": 0.9515167296051678
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00120_LUp72sMNBE8.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00120_LUp72sMNBE8.png",
+      "hamming": 4,
+      "ssim": 0.970669538057334
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00120_yA_4ACYM2Tg.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00120_yA_4ACYM2Tg.png",
       "hamming": 10,
@@ -599,6 +1724,18 @@
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00121_Dhf2a6Nehlo.png",
       "hamming": 6,
       "ssim": 0.9674263322843974
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00121_sLabTVsDq4Q.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00121_sLabTVsDq4Q.png",
+      "hamming": 6,
+      "ssim": 0.9597980905933055
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00123_uKSHyJDntOw.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00123_uKSHyJDntOw.png",
+      "hamming": 0,
+      "ssim": 0.9792588501547927
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00124_ZWcgaroM950.png",
@@ -625,10 +1762,58 @@
       "ssim": 0.9797242512653097
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00131_7w9VP96EhmM.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00131_7w9VP96EhmM.png",
+      "hamming": 2,
+      "ssim": 0.9671903147733713
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00132_L-abseEoHUg.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00132_L-abseEoHUg.png",
       "hamming": 10,
       "ssim": 0.9540753844151284
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00134_6TVe13r9bbc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00134_6TVe13r9bbc.png",
+      "hamming": 4,
+      "ssim": 0.9506958996515369
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00136_xFMPE9PvsTM.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00136_xFMPE9PvsTM.png",
+      "hamming": 0,
+      "ssim": 0.9787554578328966
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00141_sI3e7Mwlhyg.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00141_sI3e7Mwlhyg.png",
+      "hamming": 2,
+      "ssim": 0.96354807141258
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00143_NbtKpsPPL80.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00143_NbtKpsPPL80.png",
+      "hamming": 2,
+      "ssim": 0.9567442320983478
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00148_0D27PTQb8Ts.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00148_0D27PTQb8Ts.png",
+      "hamming": 4,
+      "ssim": 0.9738124821165125
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00150_s7PkS9ngka8.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00150_s7PkS9ngka8.png",
+      "hamming": 4,
+      "ssim": 0.9658987002364547
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00153_8YQxeevTnC4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00153_8YQxeevTnC4.png",
+      "hamming": 3,
+      "ssim": 0.9745577165603452
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00153_Iec7b4zNPR8.png",
@@ -655,6 +1840,24 @@
       "ssim": 0.9623961123202505
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00164_Wxfxd_1gc-c.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00164_Wxfxd_1gc-c.png",
+      "hamming": 2,
+      "ssim": 0.9883252068594431
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00166_BGIs_x_9mTY.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00166_BGIs_x_9mTY.png",
+      "hamming": 2,
+      "ssim": 0.9843723933944731
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00171_Wo1pDN8qo2Q.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00171_Wo1pDN8qo2Q.png",
+      "hamming": 2,
+      "ssim": 0.9567003979318263
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00176_dmtrtWgZwJY.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00176_dmtrtWgZwJY.png",
       "hamming": 4,
@@ -673,10 +1876,40 @@
       "ssim": 0.9650933606537677
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00182_COIUlTmAs5E.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00182_COIUlTmAs5E.png",
+      "hamming": 4,
+      "ssim": 0.9781892544986333
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00184_IvnSPK5Q-eQ.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00184_IvnSPK5Q-eQ.png",
       "hamming": 2,
       "ssim": 0.9807674825155137
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00188_Ujcwgj1xdbA.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00188_Ujcwgj1xdbA.png",
+      "hamming": 6,
+      "ssim": 0.9750535767832821
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00189_lqI-UwkwQVc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00189_lqI-UwkwQVc.png",
+      "hamming": 7,
+      "ssim": 0.9595024672117926
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00190_McGbstsrHs4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00190_McGbstsrHs4.png",
+      "hamming": 2,
+      "ssim": 0.9591852866984282
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00195_KiFhdqLD_p4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00195_KiFhdqLD_p4.png",
+      "hamming": 4,
+      "ssim": 0.9654259096928655
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00196_l10LY-So4Fg.png",
@@ -685,10 +1918,28 @@
       "ssim": 0.9564228944157095
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00201_CQpENcZXVww.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00201_CQpENcZXVww.png",
+      "hamming": 2,
+      "ssim": 0.9881515530956447
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00203_DF1_kMR4qxY.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00203_DF1_kMR4qxY.png",
       "hamming": 6,
       "ssim": 0.9507300210406708
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00205_jr55FBaQlqQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00205_jr55FBaQlqQ.png",
+      "hamming": 7,
+      "ssim": 0.9820536516460056
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00208_a75v8dytlpE.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00208_a75v8dytlpE.png",
+      "hamming": 3,
+      "ssim": 0.9743114118819624
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00214_1N5n-n70wO8.png",
@@ -703,6 +1954,30 @@
       "ssim": 0.9620025002993013
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00217_Ka1pxwL7umU.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00217_Ka1pxwL7umU.png",
+      "hamming": 4,
+      "ssim": 0.9600843588701983
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00221_UB0QiVPsXgc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00221_UB0QiVPsXgc.png",
+      "hamming": 1,
+      "ssim": 0.9951103644898919
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00222_c45X2DkoxRc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00222_c45X2DkoxRc.png",
+      "hamming": 0,
+      "ssim": 0.9627239154848692
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00225_CF8Uk1CNWXg.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00225_CF8Uk1CNWXg.png",
+      "hamming": 4,
+      "ssim": 0.9795595179863461
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00225_Crblcii1ylA.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00225_Crblcii1ylA.png",
       "hamming": 9,
@@ -713,6 +1988,36 @@
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00231_jPSNYgjsKkg.png",
       "hamming": 4,
       "ssim": 0.9621378889522795
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00231_Mijo12FlioE.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00231_Mijo12FlioE.png",
+      "hamming": 2,
+      "ssim": 0.9646958643421895
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00233_lK9Iblr1L4U.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00233_lK9Iblr1L4U.png",
+      "hamming": 4,
+      "ssim": 0.9896906521923604
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00237_p5olldOt5dw.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00237_p5olldOt5dw.png",
+      "hamming": 2,
+      "ssim": 0.9767491643246409
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00238_Wut1lHNKZ5M.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00238_Wut1lHNKZ5M.png",
+      "hamming": 4,
+      "ssim": 0.9875986720663558
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00240_MIgCWUG96Ts.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00240_MIgCWUG96Ts.png",
+      "hamming": 3,
+      "ssim": 0.9670636058941053
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00241_vjlyUQvgjfA.png",
@@ -727,16 +2032,46 @@
       "ssim": 0.957236640732647
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00244_wRcXTVzYt7I.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00244_wRcXTVzYt7I.png",
+      "hamming": 4,
+      "ssim": 0.9557721819648604
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00245_UnUiZS5wyFQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00245_UnUiZS5wyFQ.png",
+      "hamming": 2,
+      "ssim": 0.9771087666419092
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00246_gHt7oCfPDfc.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00246_gHt7oCfPDfc.png",
       "hamming": 6,
       "ssim": 0.9575077380799478
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00247_lzAeyyeTdIk.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00247_lzAeyyeTdIk.png",
+      "hamming": 1,
+      "ssim": 0.9651281804150961
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00249_5lbRMUUCJME.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00249_5lbRMUUCJME.png",
+      "hamming": 0,
+      "ssim": 0.9851479567176619
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00251_e8mxfGwDuHg.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00251_e8mxfGwDuHg.png",
       "hamming": 8,
       "ssim": 0.9637890158223476
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00252_77WwzuYQUnM.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00252_77WwzuYQUnM.png",
+      "hamming": 4,
+      "ssim": 0.9574719987211445
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00255_sjM2VQQo5Zo.png",
@@ -757,16 +2092,76 @@
       "ssim": 0.9552853981789454
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00266_X-YLxYDrbiI.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00266_X-YLxYDrbiI.png",
+      "hamming": 4,
+      "ssim": 0.9589269918361925
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00267_eA0m0VO0hj8.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00267_eA0m0VO0hj8.png",
+      "hamming": 6,
+      "ssim": 0.9506448558239785
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00268_KZGxDSLSNbU.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00268_KZGxDSLSNbU.png",
+      "hamming": 4,
+      "ssim": 0.9587673624137536
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00274_GDp6L255rXY.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00274_GDp6L255rXY.png",
+      "hamming": 8,
+      "ssim": 0.9608890183169004
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00275_W6RGULLMoNU.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00275_W6RGULLMoNU.png",
+      "hamming": 0,
+      "ssim": 0.9792783977260806
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00282_MT2NeWpewZk.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00282_MT2NeWpewZk.png",
+      "hamming": 4,
+      "ssim": 0.984210155295711
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00288_VQjzH0t8r0o.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00288_VQjzH0t8r0o.png",
+      "hamming": 2,
+      "ssim": 0.9661238810480149
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00289_vGZTmYeMDXU.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00289_vGZTmYeMDXU.png",
+      "hamming": 2,
+      "ssim": 0.9662609960292868
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00291_tDIhKbcQbks.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00291_tDIhKbcQbks.png",
       "hamming": 8,
       "ssim": 0.9607836808472366
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00295__dd65uMvT30.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00295__dd65uMvT30.png",
+      "hamming": 2,
+      "ssim": 0.9657108522330566
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00296_TJmAWhHsQlE.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00296_TJmAWhHsQlE.png",
       "hamming": 6,
       "ssim": 0.9641265964362061
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00298_Xwasijgdm5Q.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00298_Xwasijgdm5Q.png",
+      "hamming": 2,
+      "ssim": 0.9691875476277017
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00299_xhPp1bjzjBQ.png",
@@ -793,10 +2188,22 @@
       "ssim": 0.972297899948747
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00322_ZN6W8BixVhI.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00322_ZN6W8BixVhI.png",
+      "hamming": 2,
+      "ssim": 0.9677333029688971
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00323_9_bhC6UhUxc.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00323_9_bhC6UhUxc.png",
       "hamming": 10,
       "ssim": 0.9550046536680467
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00324_7nLm3yghi8c.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00324_7nLm3yghi8c.png",
+      "hamming": 2,
+      "ssim": 0.9644520788250819
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00327_NMlBKWg5zco.png",
@@ -841,10 +2248,46 @@
       "ssim": 0.9695412345086174
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00338_92JRuvQZfKs.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00338_92JRuvQZfKs.png",
+      "hamming": 2,
+      "ssim": 0.9657517493146625
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00338_vkJyIXLHvIE.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00338_vkJyIXLHvIE.png",
+      "hamming": 2,
+      "ssim": 0.9779391057252614
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00342_ixAcNevU_Lw.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00342_ixAcNevU_Lw.png",
       "hamming": 8,
       "ssim": 0.9592516966546364
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00345_nXgqAyYXaTM.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00345_nXgqAyYXaTM.png",
+      "hamming": 2,
+      "ssim": 0.9795061419699452
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00346_bPG-CFVIJ8I.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00346_bPG-CFVIJ8I.png",
+      "hamming": 0,
+      "ssim": 0.9763304303197711
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00347_D7-jWi6QMRw.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00347_D7-jWi6QMRw.png",
+      "hamming": 4,
+      "ssim": 0.9605061693082789
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00350_Tt4P7v7z_qo.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00350_Tt4P7v7z_qo.png",
+      "hamming": 4,
+      "ssim": 0.9692196053250499
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00357_JpQGEArmG0I.png",
@@ -853,10 +2296,34 @@
       "ssim": 0.9735149910696294
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00360_N18PrG7k35o.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00360_N18PrG7k35o.png",
+      "hamming": 3,
+      "ssim": 0.9601918871369818
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00363_OLMwSZz6Du4.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00363_OLMwSZz6Du4.png",
+      "hamming": 6,
+      "ssim": 0.9563950865417629
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00369_ZRttpm-LNpc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00369_ZRttpm-LNpc.png",
+      "hamming": 6,
+      "ssim": 0.9732420819596449
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00374_MkEJWRPY6gc.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00374_MkEJWRPY6gc.png",
       "hamming": 4,
       "ssim": 0.95150999042267
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00375_NlTK_D_j7xM.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00375_NlTK_D_j7xM.png",
+      "hamming": 2,
+      "ssim": 0.960716668831951
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00382_wErf0Tl7sbM.png",
@@ -917,6 +2384,12 @@
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00405_PmyWWbPjkwQ.png",
       "hamming": 6,
       "ssim": 0.9501494541359501
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00409_G9NU1EAn5Ko.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00409_G9NU1EAn5Ko.png",
+      "hamming": 6,
+      "ssim": 0.9563589634129267
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00440_iOa9J-6UOzQ.png",
@@ -1117,6 +2590,12 @@
       "ssim": 0.9770216733826922
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00641_JsbAZC_ExZQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00641_JsbAZC_ExZQ.png",
+      "hamming": 0,
+      "ssim": 0.9777067528027754
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00682_8JSHNIjrB5E.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00682_8JSHNIjrB5E.png",
       "hamming": 8,
@@ -1141,6 +2620,12 @@
       "ssim": 0.954398946341046
     },
     {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00756_BKs-Hqqc1tc.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00756_BKs-Hqqc1tc.png",
+      "hamming": 2,
+      "ssim": 0.9875417026170293
+    },
+    {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00758_OGJ115s9xJs.png",
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00758_OGJ115s9xJs.png",
       "hamming": 8,
@@ -1151,6 +2636,12 @@
       "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00768_JfArC0hvlcc.png",
       "hamming": 2,
       "ssim": 0.9836203218509199
+    },
+    {
+      "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00780_rKKCccIPNaQ.png",
+      "fake": "D:\\DS107-ImageDetector\\Data\\cleaned\\fake\\img_00780_rKKCccIPNaQ.png",
+      "hamming": 6,
+      "ssim": 0.9680352578219059
     },
     {
       "real": "D:\\DS107-ImageDetector\\Data\\cleaned\\real\\img_00782_ALgTcVM8Lio.png",

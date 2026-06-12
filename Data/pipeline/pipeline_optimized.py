@@ -17,8 +17,8 @@ import os
 # ============ CONFIG ============
 # Resolve all data paths from repository root so the script works from any CWD.
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RAW_REAL_DIR = PROJECT_ROOT / "Data/raw/Real Image"
-RAW_FAKE_DIR = PROJECT_ROOT / "Data/raw/AI Image (SDXL)"
+RAW_REAL_DIR = PROJECT_ROOT / "Data/raw 2/Real Image"
+RAW_FAKE_DIR = PROJECT_ROOT / "Data/raw 2/AI Image (SDXL)"
 CLEAN_REAL_DIR = PROJECT_ROOT / "Data/cleaned/real"
 CLEAN_FAKE_DIR = PROJECT_ROOT / "Data/cleaned/fake"
 REPORT_DIR = PROJECT_ROOT / "Data/reports"
