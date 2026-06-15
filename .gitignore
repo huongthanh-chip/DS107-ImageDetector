@@ -1,12 +1,14 @@
-# Chặn mọi thứ bên trong Data
-Data/cleaned
-Data/raw
+# Large local data
+01-data/cleaned/
+01-data/raw/
 
-# NGOẠI LỆ: Không chặn thư mục pipeline
-!Data/pipeline/
+# Generated outputs
+04-reports/runs/
+04-reports/misclassified*/
 
-# Các folder khác bạn muốn bỏ qua
+# Local/editor/cache files
 .vscode/
 Train/
 venv/
 __pycache__/
+*.pyc
