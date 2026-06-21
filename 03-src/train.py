@@ -29,13 +29,15 @@ def parse_args():
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--img-size", type=int, default=224)
     parser.add_argument("--lr", type=float, default=1e-4)
-    parser.add_argument("--weight-decay", type=float, default=0.05)
+    parser.add_argument("--weight-decay", type=float, default=0.0)
     parser.add_argument("--num-workers", type=int, default=4)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--device", default=None, help="cuda, cpu, or leave empty for auto")
     parser.add_argument("--no-pretrained", action="store_true")
     parser.add_argument("--amp", action="store_true", help="Use mixed precision on CUDA")
     parser.add_argument("--focal-gamma", type=float, default=2.0)
+    parser.add_argument("--early-stopping-patience", type=int, default=10)
+    parser.add_argument("--early-stopping-min-delta", type=float, default=0.0)
     parser.add_argument(
         "--class-balanced-alpha",
         action="store_true",
@@ -189,20 +191,27 @@ def main():
     alpha = compute_class_balanced_alpha(args.train_csv) if args.class_balanced_alpha else None
     criterion = SparseCategoricalFocalLoss(gamma=args.focal_gamma, alpha=alpha)
     print(f"Using SparseCategoricalFocalLoss(gamma={args.focal_gamma}, alpha={alpha})")
-    optimizer = optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
-    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max(1, args.epochs))
+    optimizer = optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(
+        optimizer,
+        mode="min",
+        factor=0.2,
+        patience=3,
+        min_lr=1e-7,
+    )
     use_cuda = str(device).startswith("cuda")
     scaler = torch.amp.GradScaler("cuda", enabled=args.amp and use_cuda) if use_cuda else None
     if scaler is not None and not scaler.is_enabled():
         scaler = None
 
     best_f1 = -1.0
+    epochs_without_improvement = 0
     history = []
 
     for epoch in range(1, args.epochs + 1):
         train_metrics = train_one_epoch(model, train_loader, optimizer, criterion, device, scaler=scaler)
         val_metrics = evaluate(model, val_loader, criterion, device)
-        scheduler.step()
+        scheduler.step(val_metrics["loss"])
 
         row = {
             "epoch": epoch,
@@ -229,8 +238,10 @@ def main():
             img_size=args.img_size,
             val_metrics=val_metrics,
         )
-        if val_metrics["f1"] > best_f1:
+        improved = val_metrics["f1"] > best_f1 + args.early_stopping_min_delta
+        if improved:
             best_f1 = val_metrics["f1"]
+            epochs_without_improvement = 0
             save_checkpoint(
                 output_dir / "best.pt",
                 model,
@@ -242,6 +253,15 @@ def main():
                 val_metrics=val_metrics,
             )
             print(f"Saved best checkpoint: {output_dir / 'best.pt'}")
+        else:
+            epochs_without_improvement += 1
+            print(
+                f"val_f1 did not improve from {best_f1:.4f} "
+                f"({epochs_without_improvement}/{args.early_stopping_patience})"
+            )
+            if epochs_without_improvement >= args.early_stopping_patience:
+                print("Early stopping triggered")
+                break
 
 
 if __name__ == "__main__":

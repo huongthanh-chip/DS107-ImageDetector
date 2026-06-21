@@ -5,16 +5,37 @@ import torch
 from timm import create_model
 
 
-MODEL_REGISTRY = {
-    "mobilenetv3": "mobilenetv3_large_100",
-    "mobilenetv3_large_100": "mobilenetv3_large_100",
-    "efficientnet_b0": "efficientnet_b0",
-    "efficientnetb0": "efficientnet_b0",
-    "densenet121": "densenet121",
-}
 DEFAULT_MODEL_NAME = "mobilenetv3"
 NUM_CLASSES = 2
 CLASS_NAMES = ["real", "fake"]
+
+MODEL_REGISTRY = {
+    "mobilenetv3": {
+        "timm_name": "mobilenetv3_large_100",
+        "output_name": "mobilenetv3",
+        "display_name": "MobileNetV3",
+    },
+    "mobilenetv3_large_100": {
+        "timm_name": "mobilenetv3_large_100",
+        "output_name": "mobilenetv3",
+        "display_name": "MobileNetV3",
+    },
+    "efficientnet_b0": {
+        "timm_name": "efficientnet_b0",
+        "output_name": "efficientnet_b0",
+        "display_name": "EfficientNetB0",
+    },
+    "efficientnetb0": {
+        "timm_name": "efficientnet_b0",
+        "output_name": "efficientnet_b0",
+        "display_name": "EfficientNetB0",
+    },
+    "densenet121": {
+        "timm_name": "densenet121",
+        "output_name": "densenet121",
+        "display_name": "DenseNet121",
+    },
+}
 
 
 def normalize_model_name(model_name: str) -> str:
@@ -26,12 +47,38 @@ def normalize_model_name(model_name: str) -> str:
 
 
 def model_output_name(model_name: str) -> str:
-    key = normalize_model_name(model_name)
-    if key in {"mobilenetv3", "mobilenetv3_large_100"}:
-        return "mobilenetv3"
-    if key in {"efficientnet_b0", "efficientnetb0"}:
-        return "efficientnet_b0"
-    return "densenet121"
+    return MODEL_REGISTRY[normalize_model_name(model_name)]["output_name"]
+
+
+def model_display_name(model_name: str) -> str:
+    return MODEL_REGISTRY[normalize_model_name(model_name)]["display_name"]
+
+
+def build_mobilenetv3(num_classes: int = NUM_CLASSES, pretrained: bool = True) -> torch.nn.Module:
+    """Build MobileNetV3-Large exactly as used in the notebook."""
+    return create_model(
+        "mobilenetv3_large_100",
+        pretrained=pretrained,
+        num_classes=num_classes,
+    )
+
+
+def build_efficientnetb0(num_classes: int = NUM_CLASSES, pretrained: bool = True) -> torch.nn.Module:
+    """Build EfficientNet-B0 exactly as used in the notebook."""
+    return create_model(
+        "efficientnet_b0",
+        pretrained=pretrained,
+        num_classes=num_classes,
+    )
+
+
+def build_densenet121(num_classes: int = NUM_CLASSES, pretrained: bool = True) -> torch.nn.Module:
+    """Build DenseNet121 exactly as used in the notebook."""
+    return create_model(
+        "densenet121",
+        pretrained=pretrained,
+        num_classes=num_classes,
+    )
 
 
 def build_model(
@@ -39,9 +86,15 @@ def build_model(
     num_classes: int = NUM_CLASSES,
     pretrained: bool = True,
 ) -> torch.nn.Module:
-    """Create the classifier backbone used by the project."""
-    timm_name = MODEL_REGISTRY[normalize_model_name(model_name)]
-    return create_model(timm_name, pretrained=pretrained, num_classes=num_classes)
+    """Create one of the three notebook-backed CNN classifiers."""
+    output_name = model_output_name(model_name)
+    if output_name == "mobilenetv3":
+        return build_mobilenetv3(num_classes=num_classes, pretrained=pretrained)
+    if output_name == "efficientnet_b0":
+        return build_efficientnetb0(num_classes=num_classes, pretrained=pretrained)
+    if output_name == "densenet121":
+        return build_densenet121(num_classes=num_classes, pretrained=pretrained)
+    raise ValueError(f"Unsupported model: {model_name}")
 
 
 def save_checkpoint(

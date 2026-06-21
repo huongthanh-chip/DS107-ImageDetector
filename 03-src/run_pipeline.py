@@ -21,6 +21,8 @@ def parse_args():
     parser.add_argument("--epochs", type=int, default=5)
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--num-workers", type=int, default=4)
+    parser.add_argument("--early-stopping-patience", type=int, default=10)
+    parser.add_argument("--early-stopping-min-delta", type=float, default=0.0)
     parser.add_argument("--device", default=None)
     parser.add_argument("--models", nargs="+", default=DEFAULT_MODELS, help="Models to train/evaluate")
     parser.add_argument("--output-root", default=str(PROJECT_ROOT / "04-reports" / "runs"))
@@ -61,6 +63,10 @@ def main():
                 str(args.batch_size),
                 "--num-workers",
                 str(args.num_workers),
+                "--early-stopping-patience",
+                str(args.early_stopping_patience),
+                "--early-stopping-min-delta",
+                str(args.early_stopping_min_delta),
                 "--output-dir",
                 str(output_dir),
             ]

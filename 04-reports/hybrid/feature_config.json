@@ -1,0 +1,30 @@
+{
+  "feature_columns": [
+    "orig_width",
+    "orig_height",
+    "orig_aspect_ratio",
+    "file_size",
+    "file_size_per_pixel",
+    "mean_r",
+    "mean_g",
+    "mean_b",
+    "std_r",
+    "std_g",
+    "std_b",
+    "brightness_mean",
+    "brightness_std",
+    "saturation_mean",
+    "saturation_std",
+    "colorfulness",
+    "entropy",
+    "laplacian_var",
+    "edge_density",
+    "noise_estimate",
+    "low_freq_energy",
+    "high_freq_energy",
+    "high_low_freq_ratio"
+  ],
+  "mode": "hybrid",
+  "checkpoint": "04-reports\\runs\\densenet121\\best.pt",
+  "embedding_dim": 1024
+}
